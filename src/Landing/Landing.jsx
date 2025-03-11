@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Landing.css"
 import wordmark from "../assets/wordmark.png"
+import logomark from "../assets/logomark.png"
 
 function Landing() {
   return (
@@ -8,7 +9,7 @@ function Landing() {
       <div className="index-main-container">
         <header>
           <div className="index-header-images">
-            <img src="./Images/logomark.png" alt="Logo" className="logoImage" />
+            <img src={logomark} alt="Logo" className="logoImage" />
             <img src={wordmark} alt="Wordmark" className="wordImage" />
           </div>
         </header>
