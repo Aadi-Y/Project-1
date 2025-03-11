@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,Arial, Helvetica, sans-serif;
+}
+.index-main-container{
+    min-height: 100vh;
+}
+header{
+    width: 100vw;
+}
+.index-header-images{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: black;
+
+}
+.logoImage,.wordImage{
+    height: 50px;
+    
+}
+.index-video-container{
+    border: 1px solid black;
+    min-height: 60vh;
+}
+.index-section-1{
+    border: 1px solid black;
+    min-height: 60vh;
+    color: white;
+    background-color: black;
+    border-bottom-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.index-division-1{
+    border: 1px solid white;
+    padding: 1rem;
+    max-width: 65vh;
+    border-radius: 30px;
+    margin-left: 10vw;
+    background: transparent;
+}
+.index-division-1 h2{
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+.index-division-1 p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+.index-section-2{
+    border: 1px solid white;
+    min-height: 60vh;
+    color: black;
+    background-color: white;
+    border-bottom-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.index-division-2{
+    border: 1px solid black;
+    padding: 1rem;
+    max-width: 65vh;
+    border-radius: 30px;
+    margin-left: 10vw;
+    background: hsl(0, 0%, 70%);
+}
+.index-division-2 h2{
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+.index-division-2 p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+.index-division-extra{
+    background-color: black;
+    width: 100%;
+    height: 60vh;
+}
+.index-section-3{
+    border: 1px solid white;
+    min-height: 60vh;
+    color: white;
+    background-color: black;
+    border-bottom-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.index-division-3{
+    border: 1px solid white;
+    padding: 1rem;
+    max-width: 65vh;
+    border-radius: 30px;
+    margin-left: 10vw;
+    background:transparent;
+}
+.index-division-3 h2{
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+.index-division-3 p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: .5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.index-division-1,.index-division-2,.index-division-3{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
