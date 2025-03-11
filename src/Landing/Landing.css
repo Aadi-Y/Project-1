@@ -149,4 +149,82 @@ header{
 .index-division-4 h2{
     text-align: center;
 }
+@media (max-width: 480px) {
+   .index-header-images{
+    padding: .5rem;
+   }
+   .logoImage,.wordImage{
+    height: 20px;
+    }
+    .index-section-1{
+        border-bottom-right-radius: 65px;
+        border-bottom-left-radius: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .index-division-1{
+        border: 1px solid white;
+        padding: .5rem;
+        max-width: 50vh;
+        border-radius: 20px;
+        margin-left: unset;
+    }
+    .index-division-1 h2{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .index-division-1 p{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    .index-section-2{
+        border-bottom-right-radius: 65px;
+        border-bottom-left-radius: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .index-division-2{
+        border: 1px solid white;
+        padding: .5rem;
+        max-width: 50vh;
+        border-radius: 20px;
+        margin-left: unset;
+    }
+    .index-division-2 h2{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .index-division-2 p{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    .index-section-3{
+        border-bottom-right-radius: 65px;
+        border-bottom-left-radius: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .index-division-3{
+        border: 1px solid white;
+        padding: .5rem;
+        max-width: 50vh;
+        border-radius: 20px;
+        margin-left: unset;
+    }
+    .index-division-3 h2{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .index-division-3 p{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+   
+  }
   
