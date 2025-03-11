@@ -4,7 +4,7 @@ import wordmark from "../assets/wordmark.png";
 import logomark from "../assets/logomark.png";
 import RivaraMockUp from "../assets/RivaraMockUp.png";
 import MockupCopy from "../assets/MockupCopy.png";
-import OneKitVideo from "../assets/OneKitVideo.mp4";
+import OneKitVideo from "../assets/onekitVideo.mp4";
 
 function Landing() {
   return (
