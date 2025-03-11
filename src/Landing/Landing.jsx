@@ -19,7 +19,7 @@ function Landing() {
             <h1>Video</h1>
           </section>
           <section className="index-section-1">
-            <div className="index-division-1">
+            <div className="index-division-1 glass-effect">
               <h2>"Sketching exceptional apps, one pixel at a time"</h2>
               <p>
                 Experience the best in class UI/UX Design with our team of experts.
@@ -32,7 +32,7 @@ function Landing() {
           <div className="index-division-extra">
             <section className="index-section-2">
               <div>
-                <div className="index-division-2">
+                <div className="index-division-2 glass-effect-division-2">
                   <h2>"Maximize the Impact of Your Brand with Strategic Branding Choices"</h2>
                   <p>
                     We specialize in creating professional branding resources, including
@@ -45,7 +45,7 @@ function Landing() {
             </section>
           </div>
           <section className="index-section-3">
-            <div className="index-division-3">
+            <div className="index-division-3 glass-effect">
               <h2>Leave the Heavy Lifting to</h2>
               <h2>us, watch your brand</h2>
               <h2>Thrive</h2>
@@ -55,6 +55,11 @@ function Landing() {
                 strategy development, so you can focus on what truly matters—expanding
                 your brand.
               </p>
+            </div>
+          </section>
+          <section className='index-section-4'>
+            <div className='index-division-4'>
+                <h2>Services</h2>
             </div>
           </section>
         </main>

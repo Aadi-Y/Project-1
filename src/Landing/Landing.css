@@ -27,6 +27,9 @@ header{
     border: 1px solid black;
     min-height: 60vh;
 }
+.index-video-container h1{
+    text-align: center;
+}
 .index-section-1{
     border: 1px solid black;
     min-height: 60vh;
@@ -72,7 +75,10 @@ header{
     max-width: 65vh;
     border-radius: 30px;
     margin-left: 10vw;
-    background: hsl(0, 0%, 70%);
+    background: hsl(0, 0%, 75%); 
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
 .index-division-2 h2{
     font-size: 2rem;
@@ -131,3 +137,16 @@ header{
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
+.glass-effect {
+    background: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
+    backdrop-filter: blur(0px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+.index-section-4{
+    min-height: 60vh;
+}
+.index-division-4 h2{
+    text-align: center;
+}
+  
