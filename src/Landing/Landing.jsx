@@ -45,7 +45,7 @@ function Landing() {
             </div>
           </section>
 
-          {/* <div className="index-division-extra">
+          <div className="index-division-extra">
             <section className="index-section-2">
               <div className="index-division-img-2">
                 <img src={MockupCopy} alt="" className="mockupCopy" />
@@ -66,9 +66,9 @@ function Landing() {
                 </div>
               </div>
             </section>
-          </div> */}
+          </div>
 
-          {/* <section className="index-section-3">
+          <section className="index-section-3">
             <div className="index-division-3 glass-effect">
               <h2>Leave the Heavy Lifting to</h2>
               <h2>us, watch your brand</h2>
@@ -80,7 +80,7 @@ function Landing() {
                 what truly matters—expanding your brand.
               </p>
             </div>
-          </section> */}
+          </section>
 
           {/* <section className="index-section-4">
             <div className="index-division-4">
