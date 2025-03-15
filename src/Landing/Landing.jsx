@@ -2,7 +2,7 @@ import React from "react";
 import "./Landing.css";
 import wordmark from "../assets/wordmark.png";
 import logomark from "../assets/logomark.png";
-import RivaraMockUp from "../assets/RivaraMockUp.png";
+import RivaraMockUp from "../assets/Rivara.png";
 import MockupCopy from "../assets/MockupCopy.png";
 import OneKitVideo from "../assets/onekitVideo.mp4";
 
@@ -12,7 +12,6 @@ function Landing() {
       <div className="index-main-container">
         <header>
           <div className="index-header-images">
-            <img src={logomark} alt="Logo" className="logoImage" />
             <img src={wordmark} alt="Wordmark" className="wordImage" />
           </div>
         </header>
@@ -21,18 +20,19 @@ function Landing() {
             <video
               src={OneKitVideo}
               autoPlay
-              loop
               muted
               playsInline
               onCanPlay={() => console.log("Video is loaded and can play!")}
               onError={(e) => console.log("Error loading video", e)}
             ></video>
           </section>
+
           <section className="index-section-1">
             <div className="index-division-container">
               <div className="index-division-1 glass-effect">
-                <h2>"Sketching exceptional apps, one pixel at a time"</h2>
-                <p>
+                <h2 className="heavy-text">"Sketching exceptional</h2>
+                <h2 className="heavy-text">apps,one pixel at a time"</h2>
+                <p className="light-text">
                   Experience the best in class UI/UX Design with our team of
                   experts. We specialize in carefully crafting unique and
                   intuitive app and web user interfaces, ensuring user-friendly
@@ -40,11 +40,12 @@ function Landing() {
                 </p>
               </div>
             </div>
-            <div className="index-division-img-1">
+            <div className="index-division-image-1">
               <img src={RivaraMockUp} alt="" className="rivaraMockUp" />
             </div>
           </section>
-          <div className="index-division-extra">
+
+          {/* <div className="index-division-extra">
             <section className="index-section-2">
               <div className="index-division-img-2">
                 <img src={MockupCopy} alt="" className="mockupCopy" />
@@ -65,8 +66,9 @@ function Landing() {
                 </div>
               </div>
             </section>
-          </div>
-          <section className="index-section-3">
+          </div> */}
+
+          {/* <section className="index-section-3">
             <div className="index-division-3 glass-effect">
               <h2>Leave the Heavy Lifting to</h2>
               <h2>us, watch your brand</h2>
@@ -78,12 +80,14 @@ function Landing() {
                 what truly matters—expanding your brand.
               </p>
             </div>
-          </section>
-          <section className="index-section-4">
+          </section> */}
+
+          {/* <section className="index-section-4">
             <div className="index-division-4">
               <h2>Services</h2>
             </div>
-          </section>
+          </section> */}
+
         </main>
       </div>
     </>
